@@ -2,6 +2,9 @@
 
 
 <button (click)="handleClick()" (mouseover)="handleClick()" [disabled]="isDisabled" >Property Binding </button>
+<input type="text" (input)="handleInput($event)"/>
+
+<div class="div"> {{ myName }} </div>
 <ul>
     <li>
         <img [src]="src" [alt]="name" width="100"/>

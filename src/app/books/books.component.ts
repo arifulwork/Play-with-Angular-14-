@@ -31,4 +31,12 @@ export class BooksComponent implements OnInit {
     alert('Event Binding');
   }
 
+  myName: string = '';
+
+  handleInput(event:any){
+
+    this.myName = event.target.value;
+
+  }
+
 }
