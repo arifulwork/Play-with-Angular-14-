@@ -19,24 +19,21 @@ export class BooksComponent implements OnInit {
 
   src2: string = 'https://m.media-amazon.com/images/P/1697271065.01._SCLZZZZZZZ_SX500_.jpg';
 
-  isDisabled : boolean = false;
+  isShowing : boolean = true;
+
+  toggleBooks(){
+    // if this.isShowing is true, then make it false 
+    // if this.isShowing is false, then make it true 
+    this.isShowing = !this.isShowing;
+  }
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  handleClick(){
-   this.isDisabled = true;
-    alert('Event Binding');
-  }
 
-  myNama: string = '';
 
-  handlInput(event:any){
-
-    this.myNama = event.target.value;
-
-  }
+  
 
 }
