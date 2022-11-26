@@ -2,9 +2,9 @@
 
 
 <button (click)="handleClick()" (mouseover)="handleClick()" [disabled]="isDisabled" >Property Binding </button>
-<input type="text" (input)="handleInput($event)"/>
+<input type="text" [(ngModel)]="myNama"/>
 
-<div class="div"> {{ myName }} </div>
+<div class="div"> {{ myNama }} </div>
 <ul>
     <li>
         <img [src]="src" [alt]="name" width="100"/>
