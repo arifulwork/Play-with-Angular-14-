@@ -5,6 +5,7 @@ interface Book {
   name: string
   author: string 
   image: string
+  amount: number
 
 }
 
@@ -18,19 +19,23 @@ export class BooksComponent implements OnInit {
   books: Book [] = [
    
     {
-      name: 'Clean Code',
+      name: 'clean code',
 
-      author: 'Robert C Martin',
+      author: 'robert C martin',
     
       image: 'https://m.media-amazon.com/images/I/41xShlnTZTL._SX376_BO1,204,203,200_.jpg',
+
+      amount: 700,
     },
 
     {
-      name:'Software Architect',
+      name:'software architect',
 
-      author:  'Anatoly Volkhover',
+      author:  'anatoly volkhover',
 
       image:  'https://m.media-amazon.com/images/P/1697271065.01._SCLZZZZZZZ_SX500_.jpg',
+
+      amount: 900,
     }
 
   ]
