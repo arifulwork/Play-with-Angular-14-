@@ -1,7 +1,7 @@
 <p>Programming Book List!</p>
 
 
-<button [disabled]="isDisabled" >Property Binding </button>
+<button (click)="handleClick()" (mouseover)="handleClick()" [disabled]="isDisabled" >Property Binding </button>
 <ul>
     <li>
         <img [src]="src" [alt]="name" width="100"/>
