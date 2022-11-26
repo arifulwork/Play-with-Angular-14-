@@ -19,6 +19,8 @@ export class BooksComponent implements OnInit {
 
   src2: string = 'https://m.media-amazon.com/images/P/1697271065.01._SCLZZZZZZZ_SX500_.jpg';
 
+  isDisabled : boolean = true;
+
   constructor() { }
 
   ngOnInit(): void {
