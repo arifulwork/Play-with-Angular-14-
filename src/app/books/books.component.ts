@@ -36,6 +36,26 @@ export class BooksComponent implements OnInit {
       image:  'https://m.media-amazon.com/images/P/1697271065.01._SCLZZZZZZZ_SX500_.jpg',
 
       amount: 900,
+    },
+
+    {
+      name:'python: - the bible-',
+
+      author:  'maurice J. Thompson',
+
+      image:  'https://m.media-amazon.com/images/P/1980953902.01._SCLZZZZZZZ_SX500_.jpg',
+
+      amount: 1900,
+    },
+
+    {
+      name:'python programming for beginners',
+
+      author:  'codeone publishing',
+
+      image:  'https://m.media-amazon.com/images/P/B0BL2PHJJ9.01._SCLZZZZZZZ_SX500_.jpg',
+
+      amount: 2900,
     }
 
   ]
